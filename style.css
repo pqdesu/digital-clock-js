@@ -9,3 +9,24 @@ body {
   width: 600px;
   background-color: #000000;
 }
+
+.clock {
+  color: #e7e7e7;
+  font-size: 30px;
+  font-family: "Orbitron", monospace;
+  text-shadow: 0 0 5px #00ade2, 0 0 10px #00ade2, 0 0 20px #00ade2,
+    0 0 40px #00ade2;
+
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #00ade2, 0 0 10px #00ade2, 0 0 20px #00ade2,
+      0 0 40px #00ade2;
+  }
+  to {
+    text-shadow: 0 0 10px #00ade2, 0 0 20px #00ade2, 0 0 30px #00ade2,
+      0 0 50px #00ade2;
+  }
+}
