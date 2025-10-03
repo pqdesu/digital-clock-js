@@ -1,14 +1,10 @@
 let hrs = document.getElementById("hrs");
 let min = document.getElementById("min");
-let sec = document.getElementById("secs");
+let sec = document.getElementById("sec");
 
 let currentTime = new Date();
 console.log(currentTime);
 
-hrs = currentTime.getHours();
-min = currentTime.getMinutes();
-sec = currentTime.getSeconds();
-
-console.log(hrs);
-console.log(min);
-console.log(sec);
+hrs.innerHTML = currentTime.getHours();
+min.innerHTML = currentTime.getMinutes();
+sec.innerHTML = currentTime.getSeconds();
