@@ -5,10 +5,10 @@ let sec = document.getElementById("secs");
 let currentTime = new Date();
 console.log(currentTime);
 
-console.log(currentTime.getHours());
-console.log(currentTime.getMinutes());
-console.log(currentTime.getSeconds());
+hrs = currentTime.getHours();
+min = currentTime.getMinutes();
+sec = currentTime.getSeconds();
 
-hrs.innerHTML = currentTime.getHours();
-min.innerHTML = currentTime.getMinutes();
-sec.innerHTML = currentTime.getSeconds();
+console.log(hrs);
+console.log(min);
+console.log(sec);
