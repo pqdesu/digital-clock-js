@@ -20,6 +20,14 @@ body {
   animation: glow 2s ease-in-out infinite alternate;
 }
 
+.clock span {
+  font-size: 40px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
 @keyframes glow {
   from {
     text-shadow: 0 0 5px #00ade2, 0 0 10px #00ade2, 0 0 20px #00ade2,
