@@ -8,3 +8,7 @@ console.log(currentTime);
 console.log(currentTime.getHours());
 console.log(currentTime.getMinutes());
 console.log(currentTime.getSeconds());
+
+hrs.innerHTML = currentTime.getHours();
+min.innerHTML = currentTime.getMinutes();
+sec.innerHTML = currentTime.getSeconds();
