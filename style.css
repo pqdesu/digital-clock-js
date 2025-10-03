@@ -8,13 +8,14 @@ body {
 .clock-container {
   height: 200px;
   width: 600px;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 
 .clock {
   color: #e7e7e7;
   text-shadow: 0 0 5px #00ade2, 0 0 10px #00ade2, 0 0 20px #00ade2,
     0 0 40px #00ade2;
+  margin-top: 40px;
 }
 
 .time span {
