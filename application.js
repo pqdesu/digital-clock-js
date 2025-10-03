@@ -4,3 +4,7 @@ let sec = document.getElementById("secs");
 
 let currentTime = new Date();
 console.log(currentTime);
+
+console.log(currentTime.getHours());
+console.log(currentTime.getMinutes());
+console.log(currentTime.getSeconds());
