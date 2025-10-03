@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  font-family: "Orbitron", monospace;
 }
 
 .clock-container {
@@ -12,29 +13,14 @@ body {
 
 .clock {
   color: #e7e7e7;
-  font-size: 30px;
-  font-family: "Orbitron", monospace;
   text-shadow: 0 0 5px #00ade2, 0 0 10px #00ade2, 0 0 20px #00ade2,
     0 0 40px #00ade2;
-
-  animation: glow 2s ease-in-out infinite alternate;
 }
 
-.clock span {
+.time span {
   font-size: 40px;
-  width: 100px;
+  width: 70px;
   display: inline-block;
   text-align: center;
   position: relative;
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 5px #00ade2, 0 0 10px #00ade2, 0 0 20px #00ade2,
-      0 0 40px #00ade2;
-  }
-  to {
-    text-shadow: 0 0 10px #00ade2, 0 0 20px #00ade2, 0 0 30px #00ade2,
-      0 0 50px #00ade2;
-  }
 }
