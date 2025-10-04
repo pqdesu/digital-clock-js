@@ -25,3 +25,10 @@ body {
   text-align: center;
   position: relative;
 }
+
+.digit-box {
+  height: 100%; /*60px*/
+  width: 100%; /*70px*/
+  background-color: black;
+  border-radius: 10px;
+}
